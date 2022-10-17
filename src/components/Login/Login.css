@@ -1,0 +1,95 @@
+.login-form-container {
+    width: 500px;
+    border: 1px solid #95A0A7;
+    margin: 20px auto;
+    border-radius: 8px;
+    position: relative;
+    padding: 30px 40px;
+}
+
+.form-title {
+    /* H4 */
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+}
+
+.form-controler {
+    margin-bottom: 30px;
+}
+
+.form-controler label {
+    display: block;
+    font-family: 'Lato';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #2A414F;
+    margin-bottom: 8px;
+}
+
+.form-controler input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    box-sizing: border-box;
+    width: 100%;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+    border: none;
+    padding: 10px;
+}
+
+.create-account {
+    text-align: center;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+    font-weight: 600;
+}
+
+
+.divider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divider::after {
+    content: '';
+    width: 40%;
+    border: 1px solid #0e161a98;
+}
+
+.divider::before {
+    content: '';
+    width: 40%;
+    border: 1px solid #0e161a98;
+}
+
+.auth-google {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #95A0A7;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 17px;
+}
